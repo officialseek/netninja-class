@@ -1,34 +1,17 @@
-// Strings
+// String methods
 
-console.log('hello world');
+// common string methods
+
 let email = 'mario@thenetninja.co.uk';
-console.log(email);
 
+//let result = email.lastIndexOf('n');
+//let result = email.slice(2, 5);
 
-// string concatination
+//let result = email.substring(4,10);
 
-let firstName = 'Brandon';
-let lastName = 'Sanderson';
+// let result = email.replace('m', 'W');
 
-let fullName = firstName + ' ' + lastName;
+let result = email.replace('n', 'w');
 
-console.log (fullName);
+console.log(result);
 
-
-// getting characters
-console.log(fullName [0]); // Index börjar på 0
-
-
-//string length
-console.log(fullName.length); // finding property of the string 
-
-// string methods
-
-console.log(fullName.toUpperCase()); // Method/function, i detta läge UPPERCASE
-let result = fullName.toLowerCase(); // nu är 'fullName' lagrat i variabeln "result" med funktionen/metoden toLowerCase
-
-console.log(result, fullName);
-
-let index = email.indexOf('@') // Detta kallas istället för ett argument, i detta fallet räknar den var index/siffra/plats @ har 
-
-console.log(index);
